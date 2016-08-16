@@ -1,0 +1,6 @@
+
+package com.joker.observerpattern.stepone;
+
+public class ConcreteSubject {
+
+}

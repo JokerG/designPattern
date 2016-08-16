@@ -1,0 +1,12 @@
+INDEX VERSION 1.126+E:\github\designPattern\.metadata\.plugins\org.eclipse.jdt.core
+2687564912.index
+2470116936.index
+1425920485.index
+4206226980.index
+1474207035.index
+1966288990.index
+2354907723.index
+3625110356.index
+1660543845.index
+621841444.index
+1234891351.index

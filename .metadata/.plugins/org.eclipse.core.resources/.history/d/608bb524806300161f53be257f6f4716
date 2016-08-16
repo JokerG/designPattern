@@ -1,0 +1,12 @@
+package com.joker.observerpattern.stepone;
+
+public class ConcreteSubject extends Subject {
+
+  @Override
+  public void Notify() {
+    for (int i = 0; this.observerList.size(); i++) {
+      this.observerList.get(i).update();
+    }
+  }
+
+}

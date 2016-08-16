@@ -1,0 +1,13 @@
+package com.joker.observerpattern.stepone;
+
+public class ConcreteObserver implements Observer {
+  private String name;
+  private String tips;
+
+  @Override
+  public void update() {
+    System.out.println(name + ":::" + tips);
+
+  }
+
+}

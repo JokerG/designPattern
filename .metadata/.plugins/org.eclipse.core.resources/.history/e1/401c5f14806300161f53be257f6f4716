@@ -1,0 +1,11 @@
+package com.joker.observerpattern.stepone;
+
+public class ConcreteSubject extends Subject {
+
+  @Override
+  public void Notify() {
+    // TODO Auto-generated method stub
+
+  }
+
+}

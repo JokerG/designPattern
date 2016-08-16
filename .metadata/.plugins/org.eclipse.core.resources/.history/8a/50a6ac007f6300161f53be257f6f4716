@@ -1,0 +1,21 @@
+
+package com.joker.observerpattern.stepone;
+
+import java.util.List;
+
+/**
+ * 主题
+ */
+public abstract  Subject {
+  private List<Observer> observerList;
+  
+  public void attach(Observer observer){
+      observerList.add(observer);
+  }
+  
+  public void detach(Observer observer){
+    observerList.remove(observer);
+  }
+  
+  public abstract void Notify();
+}

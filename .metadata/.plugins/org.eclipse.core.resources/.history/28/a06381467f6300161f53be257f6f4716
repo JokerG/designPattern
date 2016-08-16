@@ -1,0 +1,16 @@
+package com.joker.observerpattern.stepone;
+
+public class ConcreteObserver implements Observer{
+
+  /**
+   * TODO(Simply describes the realization of the function of the method(optional)).<br/>
+   *
+   * @see com.joker.observerpattern.stepone.Observer#update()
+   */
+  @Override
+  public void update() {
+    // TODO Auto-generated method stub
+    
+  }
+
+}

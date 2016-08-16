@@ -50,8 +50,8 @@ public class ConcreteObserver implements Observer {
 
 
   @Override
-  public void update() {
-    System.out.println(name + ":::" + tips);
+  public void update(String day) {
+    System.out.println(day + ":::" + name + ":::" + tips);
   }
 
 }

@@ -2,27 +2,27 @@ package com.joker.observerpattern.stepone;
 
 public class ConcreteSubject extends Subject {
 
-  private String status;
+  private String day;
 
   @Override
   public void Notify() {
     for (int i = 0; i < this.observerList.size(); i++) {
-      this.observerList.get(i).update();
+      this.observerList.get(i).update(day);
     }
   }
 
   /**
    * @return the status
    */
-  public String getStatus() {
-    return status;
+  public String getDay() {
+    return day;
   }
 
   /**
    * @param status the status to set
    */
-  public void setStatus(String status) {
-    this.status = status;
+  public void setDay(String day) {
+    this.day = day;
     this.Notify();
   }
 }

@@ -1,0 +1,19 @@
+package com.joker.observerpattern.steptwo;
+
+import java.util.Observable;
+import java.util.Observer;
+
+public class ConcreteObserver implements Observer {
+
+  /**
+   * TODO(Simply describes the realization of the function of the method(optional)).<br/>
+   * 
+   * @see java.util.Observer#update(java.util.Observable, java.lang.Object)
+   */
+  @Override
+  public void update(Observable o, Object arg) {
+
+
+  }
+
+}

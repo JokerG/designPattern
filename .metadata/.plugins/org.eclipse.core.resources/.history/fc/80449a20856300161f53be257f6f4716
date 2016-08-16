@@ -1,0 +1,7 @@
+package com.joker.observerpattern.steptwo;
+
+import java.util.Observable;
+
+public class Concrete extends Observable {
+
+}

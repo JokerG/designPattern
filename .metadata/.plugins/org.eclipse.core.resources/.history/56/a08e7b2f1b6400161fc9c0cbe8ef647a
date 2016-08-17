@@ -1,0 +1,9 @@
+
+package com.joker.singleton.hungry;
+
+/**
+ * 单例模式-饿汉
+ */
+public class Singleton {
+
+}

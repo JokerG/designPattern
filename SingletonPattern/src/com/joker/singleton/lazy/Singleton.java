@@ -1,0 +1,23 @@
+package com.joker.singleton.lazy;
+
+/**
+ * 单例模式-懒汉
+ */
+public class Singleton {
+
+  private static Singleton singleton;
+
+  private Singleton() {}
+
+  public Singleton getInstance() {
+    if (null == singleton) {
+      // 双重检查
+      synchronized (Singleton.class) {
+        if (null == singleton) {
+          singleton = new Singleton();
+        }
+      }
+    }
+    return singleton;
+  }
+}

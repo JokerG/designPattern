@@ -1,0 +1,16 @@
+package com.joker.prototype;
+
+/**
+ * 原型模式
+ */
+public class Prototype implements Cloneable {
+  @Override
+  public Prototype clone() {
+    try {
+      return (Prototype) super.clone();
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+    return null;
+  }
+}

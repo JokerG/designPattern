@@ -1,0 +1,11 @@
+package com.joker.prototype;
+
+public class Test {
+
+  public static void main(String[] args) {
+    ConcretePrototype obj = new ConcretePrototype();
+    ConcretePrototype cloneObj = (ConcretePrototype) obj.clone();
+
+  }
+
+}

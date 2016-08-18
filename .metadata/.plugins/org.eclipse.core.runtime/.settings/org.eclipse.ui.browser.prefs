@@ -1,3 +1,3 @@
 browsers=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<web-browsers current\="0">\r\n<system/>\r\n<external location\="C\:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" name\="Firefox"/>\r\n<external location\="C\:\\Program Files (x86)\\Internet Explorer\\iexplore.exe" name\="Internet Explorer"/>\r\n<external location\="C\:\\Users\\guopeng\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe" name\="Chrome"/>\r\n</web-browsers>
 eclipse.preferences.version=1
-internalWebBrowserHistory=http\://code.alibabatech.com/schema/dubbo|*|http\://192.168.1.96\:8280/open/tlbcp/tradeMessageService/queryGyOrdStatus/xml|*|
+internalWebBrowserHistory=http\://www.springframework.org/schema/beans\u00A0|*|http\://code.alibabatech.com/schema/dubbo|*|http\://192.168.1.96\:8280/open/tlbcp/tradeMessageService/queryGyOrdStatus/xml|*|
